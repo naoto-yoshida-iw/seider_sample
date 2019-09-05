@@ -6,7 +6,8 @@ class Greeting3
     public $name;
     public $word;
 
-    public function say() {
+    public function say()
+    {
         return "$this->name くん $this->word\n";
     }
 }
