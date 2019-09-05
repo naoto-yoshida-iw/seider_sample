@@ -4,7 +4,7 @@ class greeting {
     public $word;
 
     public function say() {
-    		    return "$this->name さん $this->word";
+        return "$this->name さん $this->word\n";
     }
 }
 ?>
