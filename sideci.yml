@@ -4,4 +4,6 @@ linter:
       standard: PSR2
   phpmd:
     options:
-      rules: cleancode,codesize,controversial,naming,unusedcode
+      rule: codesize,codesize,controversial,design,naming,unusedcode
+      minimumpriority: 3
+      suffixes: php
