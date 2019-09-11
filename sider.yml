@@ -7,3 +7,6 @@ linter:
       rule: codesize,codesize,controversial,design,naming,unusedcode
       minimumpriority: 3
       suffixes: php
+branches:
+  exclude:
+    - master
