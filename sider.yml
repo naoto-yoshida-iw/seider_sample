@@ -1,6 +1,6 @@
 linter:
   code_sniffer:
-    version: 2
+    version: 3
   phpmd:
     options:
       rule: codesize,codesize,controversial,design,naming,unusedcode
