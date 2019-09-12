@@ -1,12 +1,8 @@
 linter:
   code_sniffer:
-    options:
-      standard: PSR2
+    version: 2
   phpmd:
     options:
       rule: codesize,codesize,controversial,design,naming,unusedcode
       minimumpriority: 3
       suffixes: php
-branches:
-  exclude:
-    - master
