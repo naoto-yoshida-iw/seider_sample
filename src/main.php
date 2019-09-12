@@ -20,7 +20,7 @@ $g3->name = '炭治郎';
 $g3->word = 'おはよう';
 
 echo $g3->say();
-	if (2) {
-echo "test";
+if (1) {
+    echo "test";
 }
 ?>
